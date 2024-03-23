@@ -45,7 +45,12 @@ export default function Characters(props) {
                 </div>
             ))}
         </div>
-        <span className="back-home" onClick={resetCharacters}>Volver a la home</span>
+        <span className="back-home" onClick={resetCharacters}>Volver a la home</span><hr></hr>
+        
+        <footer class="footer">
+            <i>Jhersin Aldana</i>
+        </footer>
+        
       </div>
     );
 }
